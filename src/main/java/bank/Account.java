@@ -11,7 +11,15 @@ public class Account {
     setType(type);
     setBalance(balance);
   }
+/* 
+  public void deposit(double amount){
+    setBalance(this.balance + amount);
+  }
 
+  public void withdraw(double amount){
+    setBalance(this.balance - amount);
+  }
+*/
   public int getId() {
     return this.id;
   }
