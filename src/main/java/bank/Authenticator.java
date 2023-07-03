@@ -14,7 +14,7 @@ public class Authenticator {
       customer.setAuthenticated(true);
       return customer;
     }
-    else throw new LoginException("password incorrect")  
+    else throw new LoginException("password incorrect");  
   }
 
   public static void logout(Customer customer){
